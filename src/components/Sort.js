@@ -6,7 +6,8 @@ class Sort extends React.Component {
       <div>
         <h4>This is Sort</h4>
         <select>
-          <option></option>
+          <option value='name'>Name</option>
+          <option value='weight'>Weight</option>
         </select>
       </div>
     )

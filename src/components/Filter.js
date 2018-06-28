@@ -6,7 +6,9 @@ class Filter extends React.Component {
       <div>
         <h4>Filter</h4>
         <select>
-          <option></option>
+          <option value="all">All</option>
+          <option value="greased">Greased</option>
+          <option value="ungreased">Ungreased</option>
         </select>
       </div>
     )

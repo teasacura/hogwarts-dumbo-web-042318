@@ -40,8 +40,8 @@ function Pork(props) {
     <div className="ui eight wide column">
       <h1>{name}</h1>
       <img src={imgMapper[name]} alt='' />
-      <p>{medal}</p>
-      <h5>{weight}</h5>
+      <p>Medal: {medal}</p>
+      <h5>Weight: {weight}</h5>
     </div>
   )
 }
