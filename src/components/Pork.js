@@ -7,26 +7,26 @@ import GalaxyNote from '../hog-imgs/galaxy_note.jpg'
 import LeggoMyEggo from '../hog-imgs/leggo_my_eggo.jpg'
 import Mudblood from '../hog-imgs/mudblood.jpg'
 import PiggySmalls from '../hog-imgs/piggy_smalls.jpg'
-import PorkChop from '../hog-imgs/porkchop.jpg'
+import Porkchop from '../hog-imgs/porkchop.jpg'
 import Rainbowdash from '../hog-imgs/rainbowdash.jpg'
 import Sobriety from '../hog-imgs/sobriety.jpg'
 import TheProsciuttoConcern from '../hog-imgs/the_prosciutto_concern.jpg'
 import Trouble from '../hog-imgs/trouble.jpg'
 import TruffleShuffle from '../hog-imgs/truffleshuffle.jpg'
 
-cosnt imgMapper = {
-  'AugustusGloop': AugustusGloop,
-  'BayOfPigs': BayOfPigs,
+const imgMapper = {
+  'Augustus Gloop': AugustusGloop,
+  'Bay of Pigs': BayOfPigs,
   'Cherub': Cherub,
   'Cherub2': Cherub2,
-  'GalaxyNote': GalaxyNote,
-  'LeggoMyEggo': LeggoMyEggo,
+  'Galaxy Note': GalaxyNote,
+  'Leggo My Eggo': LeggoMyEggo,
   'Mudblood': Mudblood,
-  'PiggySmalls': PiggySmalls,
-  'PorkChop': PorkChop,
+  'Piggy smalls': PiggySmalls,
+  'Porkchop': Porkchop,
   'Rainbowdash': Rainbowdash,
   'Sobriety': Sobriety,
-  'TheProsciuttoConcern', TheProsciuttoConcern,
+  'The Prosciutto Concern': TheProsciuttoConcern,
   'Trouble': Trouble,
   'TruffleShuffle': TruffleShuffle
 }
@@ -37,6 +37,7 @@ function Pork(props) {
   return (
     <div className="ui eight wide column">
       <h1>{name}</h1>
+      <img src={imgMapper[name]} alt='' />
     </div>
   )
 }
