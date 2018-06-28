@@ -12,7 +12,7 @@ class App extends Component {
     this.state = {
       hogs: hogs,
       filter: 'all',
-      sort: null
+      sort: 'none'
     }
   }
 
