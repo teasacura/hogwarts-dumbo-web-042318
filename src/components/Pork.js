@@ -35,11 +35,13 @@ function Pork(props) {
   console.log(props.hog)
   const { name, specialty, greased } = props.hog
   const {'highest medal achieved': medal} = props.hog
+  const {'weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water': weight} = props.hog
   return (
     <div className="ui eight wide column">
       <h1>{name}</h1>
       <img src={imgMapper[name]} alt='' />
       <p>{medal}</p>
+      <h5>{weight}</h5>
     </div>
   )
 }
