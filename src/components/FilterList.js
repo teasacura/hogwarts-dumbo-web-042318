@@ -5,7 +5,7 @@ import Filter from './Filter'
 class FilterList extends React.Component {
   render() {
     return (
-      <div>
+      <div className="ui grid container">
         <Filter />
         <Sort />
       </div>

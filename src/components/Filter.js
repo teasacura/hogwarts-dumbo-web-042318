@@ -3,7 +3,7 @@ import React from 'react'
 class Filter extends React.Component {
   render() {
     return (
-      <div>
+      <div className="ui eight wide column">
         <h4>Filter</h4>
         <select>
           <option value="all">All</option>
