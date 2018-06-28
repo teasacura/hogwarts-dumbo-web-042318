@@ -34,10 +34,12 @@ const imgMapper = {
 function Pork(props) {
   console.log(props.hog)
   const { name, specialty, greased } = props.hog
+  const {'highest medal achieved': medal} = props.hog
   return (
     <div className="ui eight wide column">
       <h1>{name}</h1>
       <img src={imgMapper[name]} alt='' />
+      <p>{medal}</p>
     </div>
   )
 }
